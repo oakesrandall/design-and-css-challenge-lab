@@ -1,8 +1,8 @@
 /*
 Project Name: Blank Template
 Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Author: David Randall
+Developer @GA in DEN
 */
 
 
@@ -66,12 +66,85 @@ body {
 }
 
 header {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  text-align:center;
+  margin: auto;
+  height: 400px;
+}
+
+#companyName {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: left;
+  margin: 0 10px 10px 50px;
+  padding-top: 15px;
+}
+
+#tagLine {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 20px;
+}
+
+#getItButton {
+  color: #033048;
+  background-color: #f9e42e;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+  margin: 25px;
+}
+
+.benefits {
+  background-color: #f0efef;
+  padding: 20px 30px;
+}
+
+#benefitHeadline {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px -5px 5px 5px;
+}
+
+.benefitsList {
+  list-style: circle;
+  margin: 10px 45px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg);
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+#testimonialQuote {
+  font-weight: 300;
+  font-style: italic;
+  width: 200px;
+  text-align: center;
+}
+
+#quoteAuthor {
+  font-weight: 600;
+}
+
+#signUp {
+  background-color: #f9e42e;
+  margin: 30px, 0;
 }
 
 footer {
+    background-color: #121212;
+}
 
+footer h2 {
+  color: #f9e42e;
 }
 
 /******************************************
